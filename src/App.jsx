@@ -1,6 +1,5 @@
 import { useState } from "react";
 import HeartComponent from "./components/HeartShapes";
-import { BrowserRouter as Router } from "react-router-dom";
 import GraphFirst from "./components/GraphFirst";
 import GraphSec from "./components/GraphSec";
 import GraphThird from "./components/GraphThird";
@@ -17,7 +16,6 @@ function App() {
 
   return (
     <>
-      <Router>
         {/* <HeartModelMap/> */}
         <HeartComponent />
         <GraphFirst />
@@ -32,7 +30,6 @@ function App() {
 
         
         
-      </Router>
     </>
   );
 }

@@ -192,7 +192,7 @@ const CombinedChart = () => {
       </div>
         <h2 className="text-3xl font-bold text-center text-white mb-4 tracking-wider">Combined Metrics</h2>
 
-        <div className="flex justify-center items-center mb-4 relative">
+        <div className="flex justify-center items-center mb-12 relative max-md:justify-center">
           <FontAwesomeIcon
             icon={faFilter}
             className="text-purple-400 text-lg cursor-pointer mr-2 hover:text-purple-600 transition-all duration-300"
@@ -210,7 +210,7 @@ const CombinedChart = () => {
           )}
         </div>
 
-        <div className="flex justify-end items-center mb-4 relative">
+        <div className="flex justify-end items-center mb-4 relative max-md:justify-center">
           <FontAwesomeIcon
             icon={faFilter}
             className="text-purple-400 text-lg cursor-pointer mr-2 hover:text-purple-600 transition-all duration-300"
